@@ -1,0 +1,36 @@
+# Core Frameworks
+torch==2.2.2+cu121
+torchvision==0.17.2+cu121
+torchaudio==2.2.2+cu121
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+tensorflow==2.13.0
+tensorflow-intel==2.13.0
+
+# Core Libraries
+numpy==1.26.4
+pandas==2.3.3
+opencv-python==4.11.0
+mediapipe==0.10.14
+matplotlib==3.10.7
+
+# Emotion / Face Analysis
+deepface==0.0.93
+fer==22.5.1
+
+# Visualization / Frontend
+streamlit==1.51.0
+plotly==6.3.1
+seaborn==0.13.2
+
+# Utilities
+moviepy==1.0.3
+Pillow==10.2.0
+scikit-learn==1.7.2
+scipy==1.15.3
+protobuf==3.20.3
+tqdm==4.66.5
+
+# Logging / Debugging
+psutil==7.1.2
+rich==14.2.0

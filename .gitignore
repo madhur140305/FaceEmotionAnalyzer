@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# IDE configs
+.vscode/
+.idea/
+
+# Logs and outputs
+output/
+*.csv
+
+# System files
+.DS_Store
+Thumbs.db
+
+# TensorFlow / PyTorch cache
+*.h5
+*.pt
+*.pth
+*.onnx
